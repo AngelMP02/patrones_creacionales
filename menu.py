@@ -1,8 +1,7 @@
-class ElementoMenu:
-    def __init__(self, nombre, codigo, precio):
-        self.nombre = nombre
-        self.codigo = codigo
-        self.precio = precio
+# menu.py
+class Menu:
+    def __init__(self):
+        self.elementos = []
 
-    def obtener_precio(self):
-        return self.precio
+    def agregar_elemento(self, elemento):
+        self.elementos.append(elemento)
