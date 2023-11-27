@@ -1,5 +1,7 @@
-class Pizza:
-    def __init__(self):
+from menu_item import MenuItem
+class Pizza(MenuItem):
+    def __init__(self, nombre, precio, tipo_masa, salsa, ingredientes_principales, tecnicas_coccion, presentacion, maridaje_recomendado):
+        super().__init__(nombre, precio)
         self.tipo_masa = ""
         self.salsa = ""
         self.ingredientes_principales = []
