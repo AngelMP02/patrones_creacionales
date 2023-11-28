@@ -20,4 +20,4 @@ print(f"Maridaje recomendado: {pizza_personalizada.maridaje_recomendado}")
 
 # Guarda la pizza personalizada en un archivo CSV
 csv_writer = PizzaCSVWriter("pizzas_personalizadas.csv")
-csv_writer.write_pizza_to_csv(pizza_personalizada)
+csv_writer.write_pizza_to_csv(pizza_personalizada)  
